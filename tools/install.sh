@@ -32,7 +32,7 @@ main() {
   unset CHECK_ZSH_INSTALLED
 
   if [ ! -n "$ZSH" ]; then
-    ZSH=~/.oh-my-zsh
+    ZSH=/home/nodejs/gru
   fi
 
   if [ -d "$ZSH" ]; then
