@@ -9,7 +9,6 @@ export ZSH="/Users/wbeck/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="wendy"
-#ZSH_THEME="muse"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -37,7 +36,7 @@ CASE_SENSITIVE="true"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
@@ -112,7 +111,6 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-#alias ls='ls --color'
 eval "$(rbenv init -)"
 eval $(thefuck --alias)
 
@@ -125,5 +123,5 @@ export NVM_DIR="$HOME/.nvm"
 export GEM_HOME=$HOME/gems
 export PATH=$HOME/gems/bin:$PATH
 export PATH="/usr/local/opt/ruby/bin:$PATH"
-ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
+ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor wbeck)
 source /Users/wbeck/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
