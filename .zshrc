@@ -78,7 +78,6 @@ plugins=(
   vscode
   web-search
   vi-mode
-  zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -123,5 +122,3 @@ export NVM_DIR="$HOME/.nvm"
 export GEM_HOME=$HOME/gems
 export PATH=$HOME/gems/bin:$PATH
 export PATH="/usr/local/opt/ruby/bin:$PATH"
-ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor wbeck)
-source /Users/wbeck/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
